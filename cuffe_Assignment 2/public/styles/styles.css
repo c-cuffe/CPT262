@@ -1,0 +1,78 @@
+nav {
+	width: auto;
+	background-color: #041988;
+	overflow: hidden;
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+  }
+
+nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	width: 28%;
+  }
+  
+nav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+nav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+h1 {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	color: #041988;
+	font-weight: 450;
+	
+} 
+form {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	color: #041988;
+	margin-top: 30px;
+	text-align: left;
+}
+
+#table {
+	background-color: #6f8cc3;
+	padding: 20px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header img {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	
+}
+
+#submit {
+	font-family: "Helvetica Neue Light","HelveticaNeue-Light","Helvetica Neue",Calibri, Helvetica,Arial;
+	text-align: center;
+	background-color: #041988;
+	color: #FFFFFF;
+	border-radius: 12px;
+	font-size: 35px;
+	border: none;
+	padding: 5px;
+	display: block;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bottom {
+margin: 0;
+position: absolute;
+left: 43%;
+}
