@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Admin Portal</title>
+    <!-- Not present in the tutorial. Just for basic styling. -->
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <!--Required libraries to make our pages function-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.1.5/index.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="contact.html">CONTACT FORM</a>
+      <a href="portal.html">VIEW REQUESTS</a>
+    </nav>
+    <h1>Requests</h1>
+    <table id="portalhead">
+      <tr>
+      <th width="80px">First Name</th>
+      <th width="80px">Last Name</th>
+      <th width="80px">Date of Birth</th>
+      <th width="80px">Address</th>
+      <th width="80px">City</th>
+      <th width="80px">State</th>
+      <th width="80px">Zip Code</th>
+      <th width="80px">Email</th>
+      <th width="80px">Phone</th>
+      <th width="80px">Contact Preference</th>
+      <th width="80px">Include on Newsletter</th>
+      <th width="80px">Insurance</th>
+      <th width="80px">Other Insurancce</th>
+      <th>Predominant Issue</th>
+      <th>Additional Symptoms</th>
+      <th>Preferred Location</th>
+      <th>How Patient Found OrthoSC</th>
+    </tr>
+  </table>
+    <div id="content"></div>
+    <script type="text/babel" src="../scripts/portal.js"></script>
+  </body>
+</html>
