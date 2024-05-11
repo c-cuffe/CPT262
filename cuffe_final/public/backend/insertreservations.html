@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Insert Reservations</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.1.5/index.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <select name="user" onchange="location = this.value;">
+        <option selected disabled>User</option>
+        <option value="insertuser.html">Insert User</option>
+        <option value="searchuser.html">Search User</option>
+        <option value="updateuser.html">Update User</option>
+      </select>
+      <select name="players" onchange="location = this.value;">
+        <option selected disabled>Players</option>
+        <option value="insertplayers.html">Insert Players</option>
+        <option value="searchplayers.html">Search Players</option>
+        <option value="updateplayers.html">Update Players</option>
+      </select>
+      <select name="products" onchange="location = this.value;">
+        <option selected disabled>Products</option>
+        <option value="insertproducts.html">Insert Products</option>
+        <option value="searchproducts.html">Search Products</option>
+        <option value="updateproducts.html">Update Products</option>
+      </select>
+      <select name="reservations" onchange="location = this.value;">
+        <option selected disabled>Reservations</option>
+        <option value="insertreservations.html">Insert Reservations</option>
+        <option value="searchreservations.html">Search Reservations</option>
+        <option value="updatereservations.html">Update Reservations</option>
+      </select>
+      <select name="purchases" onchange="location = this.value;">
+        <option selected disabled>Purchases</option>
+        <option value="insertpurchases.html">Insert Purchases</option>
+        <option value="searchpurchases.html">Search Purchases</option>
+        <option value="updatepurchases.html">Update Purchases</option>
+      </select>
+      <a href="index.html">Logout</a>
+    </nav>
+    <div id="content"></div>
+    <script type="text/babel" src="scripts/insertreservations.js"></script>
+  </body>
+</html>
